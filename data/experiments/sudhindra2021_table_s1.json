@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "dataset_id": "sudhindra2021_table_s1",
+  "doi": "10.3390/nano11071699",
+  "title": "Noncured Graphene Thermal Interface Materials for High-Power Electronics: Minimizing the Thermal Contact Resistance",
+  "authors": [
+    "Sriharsha Sudhindra",
+    "Fariborz Kargar",
+    "Alexander A. Balandin"
+  ],
+  "year": 2021,
+  "source_files": [
+    {
+      "filename": "nanomaterials-11-01699-v5.pdf",
+      "sha256": "a27d9aa12cd765c7315308c2795d5665804174e3cfdca5eba20e5792153a6350"
+    },
+    {
+      "filename": "nanomaterials-1266677-supplementary.pdf",
+      "sha256": "e2c3855ca00c25d1ace21b23af90513794b7759a58a72cfb36b69b7e1923a1d1"
+    }
+  ],
+  "evidence_type": "published_regression_estimates",
+  "source_location": "Supplementary information, page 2, Table S1; main paper Section 3, Equation 2 and Figure 5",
+  "material": {
+    "matrix": "Noncuring silicone oil (PDMS)",
+    "filler": "Graphene and few-layer graphene mixture",
+    "loading_basis": "mass_percent"
+  },
+  "conditions": {
+    "pressure_mpa_reported": 0.55,
+    "pressure_psi_reported": 80,
+    "temperature_c_reported": 80,
+    "temperature_note": "Reported test temperature; paper states heat-source temperature was held constant. A temperature gradient exists across the specimen.",
+    "duration_minutes_per_thickness": 40,
+    "contact_surfaces": "Steel plates supplied with the TIM tester",
+    "method": "LongWin steady-state tester; authors cite ASTM D5470-06"
+  },
+  "contact_convention": {
+    "table_value": "single_interface_rc",
+    "joint_intercept": "2 * rc",
+    "basis": "Main text states Figure 5 RC equals half the Figure 3 intercept; Table S1 values match Figure 5. SI prose alone is less explicit.",
+    "combined_standard_error": "2 * single_interface_rc_se",
+    "standard_error_note": "Both per-interface values derive from the same fitted intercept. Do not combine them as independent measurements."
+  },
+  "limitations": [
+    "Raw thickness-resistance observations are absent from Table S1.",
+    "Displayed thickness curves are reconstructions from published regression estimates.",
+    "No interpolation between filler loadings is supplied.",
+    "Per-formulation measured thickness ranges require Figure 3 extraction.",
+    "Standard errors are retained as published; covariance and raw replicate data are unavailable.",
+    "The copper-plate roughness experiment in Table S2 contains additional fixture contacts and oil layers and is excluded from this preset dataset."
+  ],
+  "rows": [
+    {
+      "loading_wt_pct": 0,
+      "conductivity_w_mk": 0.176,
+      "conductivity_se_w_mk": 0.004,
+      "rc_cm2k_w": 0.681,
+      "rc_se_cm2k_w": 0.09
+    },
+    {
+      "loading_wt_pct": 2,
+      "conductivity_w_mk": 0.237,
+      "conductivity_se_w_mk": 0.1,
+      "rc_cm2k_w": 0.183,
+      "rc_se_cm2k_w": 0.33
+    },
+    {
+      "loading_wt_pct": 5,
+      "conductivity_w_mk": 0.33,
+      "conductivity_se_w_mk": 0.03,
+      "rc_cm2k_w": 0.149,
+      "rc_se_cm2k_w": 0.16
+    },
+    {
+      "loading_wt_pct": 10,
+      "conductivity_w_mk": 1.578,
+      "conductivity_se_w_mk": 0.11,
+      "rc_cm2k_w": 0.051,
+      "rc_se_cm2k_w": 0.02
+    },
+    {
+      "loading_wt_pct": 15,
+      "conductivity_w_mk": 1.748,
+      "conductivity_se_w_mk": 0.18,
+      "rc_cm2k_w": 0.011,
+      "rc_se_cm2k_w": 0.04
+    },
+    {
+      "loading_wt_pct": 18,
+      "conductivity_w_mk": 2.483,
+      "conductivity_se_w_mk": 0.2,
+      "rc_cm2k_w": 0.035,
+      "rc_se_cm2k_w": 0.02
+    },
+    {
+      "loading_wt_pct": 20,
+      "conductivity_w_mk": 2.645,
+      "conductivity_se_w_mk": 0.18,
+      "rc_cm2k_w": 0.075,
+      "rc_se_cm2k_w": 0.02
+    },
+    {
+      "loading_wt_pct": 30,
+      "conductivity_w_mk": 3.326,
+      "conductivity_se_w_mk": 1.2,
+      "rc_cm2k_w": 0.147,
+      "rc_se_cm2k_w": 0.1
+    },
+    {
+      "loading_wt_pct": 40,
+      "conductivity_w_mk": 4.221,
+      "conductivity_se_w_mk": 1.1,
+      "rc_cm2k_w": 0.234,
+      "rc_se_cm2k_w": 0.06
+    }
+  ]
+}
