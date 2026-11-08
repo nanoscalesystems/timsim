@@ -1,0 +1,13 @@
+{
+  "doi": "10.3390/nano11071699",
+  "loading_wt_pct": 10,
+  "source": "Main paper v5, p. 5, Figure 3(b); embedded 709 x 552 pixel image, PDF xref 181. Magenta downward triangle measurements, excluding the legend and dashed line.",
+  "coordinate_convention": "Marker bounding-box centers; x increases rightward, y downward from the top-left of the original image.",
+  "x_ticks_px": [123, 658],
+  "x_ticks_cm": [0, 0.025],
+  "y_ticks_px": [466, 35],
+  "y_ticks_cm2k_w": [0, 1.2],
+  "marker_centers_px": [[221, 325.5], [287, 255.5], [340.5, 209], [362, 170]],
+  "sensitivity_offset_px": 2,
+  "scope": "Digitized plotted observations under the Figure 3 steel-fixture conditions. The Figure 3 thickness axis uses cm; the conclusion states 5 to 35 um. The discrepancy remains unresolved."
+}
