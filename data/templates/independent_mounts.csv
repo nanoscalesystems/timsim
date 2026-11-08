@@ -1,0 +1,1 @@
+series_id,batch_id,mount_id,order,nominal_blt_um,installed_blt_um,blt_uncertainty_um,pressure_mpa,area_mm2,hot_surface_c,cold_surface_c,heat_rate_w,hold_minutes,steady_state_met,observed_joint_mm2k_w,joint_uncertainty_mm2k_w,raw_file,fixture_correction_id,notes
