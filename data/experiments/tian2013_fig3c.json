@@ -1,0 +1,70 @@
+{
+  "dataset_id": "tian2013_fig3c",
+  "doi": "10.1038/srep01710",
+  "pdf_sha256": "1d18566f45acbb9bb12a4257fe1f8e7f51238da4e1d9336e7dae5d9acabbe03a",
+  "source": "PDF page 4, Figure 3(c), four filled black squares",
+  "evidence_type": "digitized_plotted_observations",
+  "coordinates": "PyMuPDF page coordinates in points, origin top left; marker centers from filled rectangle bounds.",
+  "calibration": {
+    "x_pdf_pt": [
+      150.124039,
+      266.765045
+    ],
+    "x_um": [
+      100,
+      300
+    ],
+    "y_pdf_pt": [
+      388.548248,
+      263.026154
+    ],
+    "y_cm2k_w": [
+      0,
+      5
+    ]
+  },
+  "material_class": "Graphite nanoplatelet-based TIM",
+  "panel_matrix": null,
+  "panel_loading_wt_pct": null,
+  "panel_pressure_mpa": null,
+  "panel_temperature_c": null,
+  "method_temperature_range_c": [
+    30,
+    60
+  ],
+  "method_fixture": "LW-9389 steady-state tester; copper meter blocks",
+  "observations": [
+    {
+      "marker_center_pdf_pt": [
+        97.566437,
+        382.545609
+      ],
+      "thickness_um": 9.881432,
+      "resistance_cm2k_w": 0.23910689
+    },
+    {
+      "marker_center_pdf_pt": [
+        155.406494,
+        344.385559
+      ],
+      "thickness_um": 109.05763,
+      "resistance_cm2k_w": 1.75915998
+    },
+    {
+      "marker_center_pdf_pt": [
+        220.68634,
+        300.224075
+      ],
+      "thickness_um": 220.990557,
+      "resistance_cm2k_w": 3.51827196
+    },
+    {
+      "marker_center_pdf_pt": [
+        277.086349,
+        268.543594
+      ],
+      "thickness_um": 317.697557,
+      "resistance_cm2k_w": 4.78022035
+    }
+  ]
+}
